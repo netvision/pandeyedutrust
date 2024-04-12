@@ -7,7 +7,6 @@ import Icons from 'unplugin-icons/vite';
 import IconsResolver from 'unplugin-icons/resolver';
 import Layouts from 'vite-plugin-vue-layouts';
 import { VitePWA } from 'vite-plugin-pwa';
-import VueI18n from '@intlify/vite-plugin-vue-i18n';
 import generateSitemap from 'vite-ssg-sitemap';
 import VueRouter from 'unplugin-vue-router/vite';
 import { VueRouterExports } from 'unplugin-vue-router';
@@ -43,7 +42,6 @@ export default defineConfig({
 				// presets
 				'vue',
 				{ '@vue-router': VueRouterExports },
-				'vue-i18n',
 				'@vueuse/core',
 				'@vueuse/head',
 				// custom
@@ -86,11 +84,6 @@ export default defineConfig({
 					},
 				],
 			},
-		}),
-		VueI18n({
-			runtimeOnly: true,
-			compositionOnly: true,
-			include: [resolve(__dirname, 'locales/**')],
 		}),
 	],
 	resolve: {
