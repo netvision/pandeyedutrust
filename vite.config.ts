@@ -11,6 +11,7 @@ import VueI18n from '@intlify/vite-plugin-vue-i18n';
 import generateSitemap from 'vite-ssg-sitemap';
 import VueRouter from 'unplugin-vue-router/vite';
 import { VueRouterExports } from 'unplugin-vue-router';
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [
@@ -25,6 +26,7 @@ export default defineConfig({
 				IconsResolver({
 					prefix: 'icon',
 				}),
+				ElementPlusResolver(),
 			],
 		}),
 		Icons({
@@ -51,7 +53,7 @@ export default defineConfig({
 
 			// custom resolvers
 			// see https://github.com/antfu/unplugin-auto-import/pull/23/
-			resolvers: [],
+			resolvers: [ElementPlusResolver()],
 		}),
 		Layouts(),
 		VitePWA({

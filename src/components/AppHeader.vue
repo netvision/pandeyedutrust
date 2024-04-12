@@ -1,80 +1,56 @@
-<script setup lang="ts">
-	defineEmits(['toggleSidebar']);
-
-	const { availableLocales } = useI18n();
-
-	const preferedDark = usePreferredDark();
-	const isDark = useStorage('isDark', preferedDark.value);
-	const body = ref<HTMLBodyElement | null>(null);
-
-	const toggleDarkMode = () => {
-		if (body.value) {
-			if (isDark.value) {
-				body.value.classList.remove('dark');
-			} else {
-				body.value.classList.add('dark');
-			}
-		}
-		isDark.value = !isDark.value;
-	};
-
-	onMounted(async () => {
-		await nextTick();
-
-		body.value = document.querySelector('body') as HTMLBodyElement;
-		if (body.value) {
-			if (isDark.value) body.value.classList.add('dark');
-		}
-	});
+<script setup>
+import headerImg from "@/assets/header.jpg"
 </script>
 
 <template>
 	<header>
-		<nav
-			class="
-				w-full
-				bg-white
-				text-gray-800
-				dark:bg-gray-800 dark:text-white
-				py-4
-				px-8
-				shadow-md
-				dark:shadow-md
-				flex
-				items-center
-				border-b border-gray-400/50
-			"
-		>
-			<router-link :to="{ name: 'home' }">
-				<div class="font-bold lg:text-xl md:text-lg text-md">Vitailse</div>
-			</router-link>
-			<div class="ml-auto flex items-center h-full">
-				<select
-					id="language"
-					v-model="$i18n.locale"
-					class="py-1 focus:outline-none rounded dark:text-gray-800"
-				>
-					<option
-						v-for="locale in availableLocales"
-						:key="locale"
-						:value="locale"
-					>
-						{{ locale }}
-					</option>
-				</select>
-				<button
-					class="mx-5 cursor-pointer focus:outline-none"
-					@click="toggleDarkMode"
-				>
-					<icon:bx:bx-moon class="w-6 h-6" v-if="!isDark" />
-					<icon:bx:bxs-moon class="w-6 h-6" v-else />
-				</button>
-				<a href="https://github.com/zynth17/vitailse">
-					<icon-akar-icons:github-fill />
-				</a>
-			</div>
-		</nav>
+		<div class="w-full relative">
+			<el-image class="w-full" :src="headerImg" fit="cover" />
+			<div class="absolute top-2 left-4 text-sm font-bold">Contact No. </div>
+		</div>
+		<nav class="flex px-4 border-b md:shadow-lg items-center justify-between relative">
+       <el-menu
+    	mode="horizontal"
+		class="w-full"
+	   >
+		<el-menu-item index="1">
+			<el-link href="other-page">Home</el-link>
+		</el-menu-item>
+		<el-sub-menu index="2">
+			<template #title>Services Offered</template>
+			<el-menu-item index="2-1">Consultancy Services</el-menu-item>
+			<el-menu-item index="2-2">Staff Recruitment</el-menu-item>
+			<el-menu-item index="2-3">Staff Training</el-menu-item>
+			<el-menu-item index="2-4">Online Support System</el-menu-item>
+		</el-sub-menu>
+		<el-menu-item index="3">
+			<el-link href="other-page">The Team</el-link>
+		</el-menu-item>
+
+		<el-menu-item index="4">
+			<el-link href="other-page">Portfolio</el-link>
+		</el-menu-item>
+		<el-sub-menu index="5">
+			<template #title>Case Studies</template>
+			<el-menu-item index="5-1">Bus facility to Staff</el-menu-item>
+			<el-menu-item index="5-2">Maheshwari Public School Computerisation</el-menu-item>
+			<el-menu-item index="5-3">Demotion of Officiating Principal</el-menu-item>
+			<el-menu-item index="5-4">Demotion of Vice Principal</el-menu-item>
+			<el-menu-item index="5-5">Administrators are Born not Trained</el-menu-item>
+		</el-sub-menu>
+		<el-menu-item>
+			<el-link href="other-page">Published Papers</el-link>
+		</el-menu-item>
+		<el-menu-item>
+			<el-link href="other-page">Social Responsility</el-link>
+		</el-menu-item>
+		<el-menu-item>
+			<el-link href="other-page">Contact Us</el-link>
+		</el-menu-item>
+	   </el-menu>
+    </nav>
 	</header>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
