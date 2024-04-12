@@ -7,7 +7,6 @@
                     Fee Ebooks:
                 </span>
             </div>
-            <el-space size="6" spacer='*'>
 				<div class="px-5 py-2">
 					<a href="#" class="text-base leading-6 text-gray-800 hover:text-blue-800">
 						Success is Not by Chance
@@ -28,7 +27,6 @@
 						जिद करो और सफलता पाओ
 					</a>
 				</div>
-			</el-space>
         </nav>
         <div class="flex justify-center mt-8 space-x-6">
 

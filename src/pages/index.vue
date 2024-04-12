@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import AppHeader from '@/components/AppHeader.vue';
-
+<script setup>
 	useHead({
 		title: 'Pandey Education Trust',
 	});
@@ -17,13 +15,7 @@ import AppHeader from '@/components/AppHeader.vue';
 	<Footer />
 </template>
 <style scoped>
-.content {
-	@apply p-10 text-justify text-base
-}
 
-p {
-	@apply py-2
-}
 </style>
 
 <route lang="yaml">
