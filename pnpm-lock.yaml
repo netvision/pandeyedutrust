@@ -21,8 +21,8 @@ dependencies:
     specifier: ^8.9.3
     version: 8.9.3(vue@3.2.37)
   '@vueuse/core':
-    specifier: ^8.9.3
-    version: 8.9.3(vue@3.2.37)
+    specifier: ^10.9.0
+    version: 10.9.0(vue@3.2.37)
   '@vueuse/head':
     specifier: ^0.7.6
     version: 0.7.6(vue@3.2.37)
@@ -81,7 +81,7 @@ devDependencies:
     version: 4.7.4
   unplugin-auto-import:
     specifier: ^0.9.3
-    version: 0.9.3(@vueuse/core@8.9.3)(rollup@2.77.0)(vite@3.0.0)
+    version: 0.9.3(@vueuse/core@10.9.0)(rollup@2.77.0)(vite@3.0.0)
   unplugin-element-plus:
     specifier: ^0.8.0
     version: 0.8.0(rollup@2.77.0)
@@ -1656,6 +1656,10 @@ packages:
 
   /@types/web-bluetooth@0.0.14:
     resolution: {integrity: sha512-5d2RhCard1nQUC3aHcq/gHzWYO6K0WJmAbjO7mQJgCQKtZpgXxv1rOM6O/dBDhDYYVutk1sciOgNSe+5YyfM8A==}
+    dev: false
+
+  /@types/web-bluetooth@0.0.20:
+    resolution: {integrity: sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==}
 
   /@vitejs/plugin-vue@3.0.0(vite@3.0.0)(vue@3.2.37):
     resolution: {integrity: sha512-yWP34ArFh/jAeNUDkkLz/kVRLjf5ppJiq4L36f64Cp6dIrMQeYZGDP9xxdemlXfZR9ylN9JgHUl3GzfqOtgYDg==}
@@ -1785,6 +1789,17 @@ packages:
       - vue
     dev: false
 
+  /@vueuse/core@10.9.0(vue@3.2.37):
+    resolution: {integrity: sha512-/1vjTol8SXnx6xewDEKfS0Ra//ncg4Hb0DaZiwKf7drgfMsKFExQ+FnnENcN6efPen+1kIzhLQoGSy0eDUVOMg==}
+    dependencies:
+      '@types/web-bluetooth': 0.0.20
+      '@vueuse/metadata': 10.9.0
+      '@vueuse/shared': 10.9.0(vue@3.2.37)
+      vue-demi: 0.14.7(vue@3.2.37)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+
   /@vueuse/core@8.9.3(vue@3.2.37):
     resolution: {integrity: sha512-q2pr3N7FPG7IBBhEXTYOJU+38VwKMLP5IfD33byzBV4Th7f1JHT4qPKvJrvr17knAefPRzNqgt9et+xFqaRlPQ==}
     peerDependencies:
@@ -1801,6 +1816,7 @@ packages:
       '@vueuse/shared': 8.9.3(vue@3.2.37)
       vue: 3.2.37
       vue-demi: 0.13.4(vue@3.2.37)
+    dev: false
 
   /@vueuse/head@0.7.6(vue@3.2.37):
     resolution: {integrity: sha512-cOWqCkT3WiF5oEpw+VVEWUJd9RLD5rc7DmnFp3cePsejp+t7686uKD9Z9ZU7Twb7R/BI8iexKTmXo9D/F3v6UA==}
@@ -1809,8 +1825,20 @@ packages:
     dependencies:
       vue: 3.2.37
 
+  /@vueuse/metadata@10.9.0:
+    resolution: {integrity: sha512-iddNbg3yZM0X7qFY2sAotomgdHK7YJ6sKUvQqbvwnf7TmaVPxS4EJydcNsVejNdS8iWCtDk+fYXr7E32nyTnGA==}
+
   /@vueuse/metadata@8.9.3:
     resolution: {integrity: sha512-57gZZKtWAmcJaUBmciCohvmumVLz4+FnoVnWj7U5BWs5PC2/7gU9Z0/i1i9leDNeboAauFzAq7z1GjS8eYnT+w==}
+    dev: false
+
+  /@vueuse/shared@10.9.0(vue@3.2.37):
+    resolution: {integrity: sha512-Uud2IWncmAfJvRaFYzv5OHDli+FbOzxiVEQdLCKQKLyhz94PIyFC3CHcH7EDMwIn8NPtD06+PNbC/PiO0LGLtw==}
+    dependencies:
+      vue-demi: 0.14.7(vue@3.2.37)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
 
   /@vueuse/shared@8.9.3(vue@3.2.37):
     resolution: {integrity: sha512-foorYQAU3CGknAO1w9No/rpGBJmb7L74MPltnZAYxeBRfhsajjJYYgja+D5IT2vT+/a0NciISaVp3fDwMN1ocA==}
@@ -1825,6 +1853,7 @@ packages:
     dependencies:
       vue: 3.2.37
       vue-demi: 0.13.4(vue@3.2.37)
+    dev: false
 
   /abab@2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
@@ -4567,7 +4596,7 @@ packages:
   /strip-literal@0.4.0:
     resolution: {integrity: sha512-ql/sBDoJOybTKSIOWrrh8kgUEMjXMwRAkZTD0EwiwxQH/6tTPkZvMIEjp0CRlpi6V5FMiJyvxeRkEi1KrGISoA==}
     dependencies:
-      acorn: 8.10.0
+      acorn: 8.11.3
     dev: true
 
   /supports-color@5.5.0:
@@ -4817,7 +4846,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-auto-import@0.9.3(@vueuse/core@8.9.3)(rollup@2.77.0)(vite@3.0.0):
+  /unplugin-auto-import@0.9.3(@vueuse/core@10.9.0)(rollup@2.77.0)(vite@3.0.0):
     resolution: {integrity: sha512-S3fC/kp98v+HhELCCG4jm4fhd/BbXhhcmFxxQ/JHXefLPtz9WTCOsSq3pq7U4D94xJ0eyZOPo/56Y9iUf3kskw==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4828,7 +4857,7 @@ packages:
     dependencies:
       '@antfu/utils': 0.5.2
       '@rollup/pluginutils': 4.2.1
-      '@vueuse/core': 8.9.3(vue@3.2.37)
+      '@vueuse/core': 10.9.0(vue@3.2.37)
       local-pkg: 0.4.2
       magic-string: 0.26.2
       unimport: 0.4.5(rollup@2.77.0)(vite@3.0.0)
@@ -5180,6 +5209,21 @@ packages:
         optional: true
     dependencies:
       vue: 3.2.37
+    dev: false
+
+  /vue-demi@0.14.7(vue@3.2.37):
+    resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      vue: 3.2.37
 
   /vue-i18n@9.1.10(vue@3.2.37):
     resolution: {integrity: sha512-jpr7gV5KPk4n+sSPdpZT8Qx3XzTcNDWffRlHV/cT2NUyEf+sEgTTmLvnBAibjOFJ0zsUyZlVTAWH5DDnYep+1g==}
@@ -5389,6 +5433,7 @@ packages:
 
   /workbox-google-analytics@6.5.3:
     resolution: {integrity: sha512-3GLCHotz5umoRSb4aNQeTbILETcrTVEozSfLhHSBaegHs1PnqCmN0zbIy2TjTpph2AGXiNwDrWGF0AN+UgDNTw==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.3
       workbox-core: 6.5.3
