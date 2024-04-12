@@ -51,8 +51,8 @@ dependencies:
     specifier: ^0.0.0
     version: 0.0.0
   workbox-window:
-    specifier: ^6.5.3
-    version: 6.5.3
+    specifier: ^6.6.0
+    version: 6.6.0
 
 devDependencies:
   '@iconify/json':
@@ -99,7 +99,7 @@ devDependencies:
     version: 3.0.0
   vite-plugin-pwa:
     specifier: ^0.12.3
-    version: 0.12.3(vite@3.0.0)(workbox-build@6.5.3)(workbox-window@6.5.3)
+    version: 0.12.3(vite@3.0.0)(workbox-build@6.5.3)(workbox-window@6.6.0)
   vite-plugin-vue-layouts:
     specifier: ^0.7.0
     version: 0.7.0(vite@3.0.0)(vue-router@4.1.2)(vue@3.2.37)
@@ -5018,7 +5018,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite-plugin-pwa@0.12.3(vite@3.0.0)(workbox-build@6.5.3)(workbox-window@6.5.3):
+  /vite-plugin-pwa@0.12.3(vite@3.0.0)(workbox-build@6.5.3)(workbox-window@6.6.0):
     resolution: {integrity: sha512-gmYdIVXpmBuNjzbJFPZFzxWYrX4lHqwMAlOtjmXBbxApiHjx9QPXKQPJjSpeTeosLKvVbNcKSAAhfxMda0QVNQ==}
     peerDependencies:
       vite: ^2.0.0 || ^3.0.0-0
@@ -5031,7 +5031,7 @@ packages:
       rollup: 2.77.0
       vite: 3.0.0
       workbox-build: 6.5.3
-      workbox-window: 6.5.3
+      workbox-window: 6.6.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5379,6 +5379,10 @@ packages:
 
   /workbox-core@6.5.3:
     resolution: {integrity: sha512-Bb9ey5n/M9x+l3fBTlLpHt9ASTzgSGj6vxni7pY72ilB/Pb3XtN+cZ9yueboVhD5+9cNQrC9n/E1fSrqWsUz7Q==}
+    dev: true
+
+  /workbox-core@6.6.0:
+    resolution: {integrity: sha512-GDtFRF7Yg3DD859PMbPAYPeJyg5gJYXuBQAC+wyrWuuXgpfoOrIQIvFRZnQ7+czTIQjIr1DhLEGFzZanAT/3bQ==}
 
   /workbox-expiration@6.5.3:
     resolution: {integrity: sha512-jzYopYR1zD04ZMdlbn/R2Ik6ixiXbi15c9iX5H8CTi6RPDz7uhvMLZPKEndZTpfgmUk8mdmT9Vx/AhbuCl5Sqw==}
@@ -5389,6 +5393,7 @@ packages:
 
   /workbox-google-analytics@6.5.3:
     resolution: {integrity: sha512-3GLCHotz5umoRSb4aNQeTbILETcrTVEozSfLhHSBaegHs1PnqCmN0zbIy2TjTpph2AGXiNwDrWGF0AN+UgDNTw==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.3
       workbox-core: 6.5.3
@@ -5455,6 +5460,13 @@ packages:
     dependencies:
       '@types/trusted-types': 2.0.2
       workbox-core: 6.5.3
+    dev: true
+
+  /workbox-window@6.6.0:
+    resolution: {integrity: sha512-L4N9+vka17d16geaJXXRjENLFldvkWy7JyGxElRD0JvBxvFEd8LOhr+uXCcar/NzAmIBRv9EZ+M+Qr4mOoBITw==}
+    dependencies:
+      '@types/trusted-types': 2.0.2
+      workbox-core: 6.6.0
 
   /workbox@0.0.0:
     resolution: {integrity: sha512-/I5JIWHK18DDGGoXOZgOkOFLsiMQZlHLnwEzw328ZMU4TA21yFCw11YEnZ1CsOnSazl0DMbFmLJ6q5hpQhP/aQ==}
