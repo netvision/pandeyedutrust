@@ -7,14 +7,14 @@ const menuItems = [
         {
           label: 'Services Offered',
           subMenu: [
-            { label: 'Consultancy Services', url: '/' },
-            { label: 'Staff Recruitment', url: '/' },
-            { label: 'Staff Training', url: '/' },
-			{ label: 'ONLINE SUPPORT SYSTEM', url: '/' }
+            { label: 'Consultancy Services', url: '/services' },
+            { label: 'Staff Recruitment', url: '/staff-recruitment' },
+            { label: 'Staff Training', url: '/staff-training' },
+			{ label: 'ONLINE SUPPORT SYSTEM', url: '/support' }
           ],
           showArrow: true
         },
-        { label: 'The Team', url: '/other-page' },
+        { label: 'The Team', url: '/team' },
         { label: 'Portfolio', url: '/' },
 		{
           label: 'Case Studies',
