@@ -15,21 +15,21 @@ const menuItems = [
           showArrow: true
         },
         { label: 'The Team', url: '/team' },
-        { label: 'Portfolio', url: '/' },
+        { label: 'Portfolio', url: '/portfolio' },
 		{
           label: 'Case Studies',
           subMenu: [
-            { label: 'Bus facility to Staff', url: '/' },
-            { label: 'Maheshwari Public School Computerisation', url: '/' },
+            { label: 'Bus facility to Staff', url: '/bus-facility' },
+            { label: 'Maheshwari Public School Computerisation', url: '/maheshwari-computerisation' },
             { label: 'Demotion of Officiating Principal', url: '/' },
-			{ label: 'Demotion of Vice Principal', url: '/' },
-			{ label: 'Administrators are Born not Trained', url: '/' }
+			{ label: 'Demotion of Vice Principal', url: '/demotion-vice-principal' },
+			{ label: 'Administrators are Born not Trained', url: '/admin-are-born' }
           ],
           showArrow: true
         },
-		{ label: 'Published Papers', url: '/' },
-		{ label: 'Social Responsibility', url: '/' },
-		{ label: 'Contact', url: '/' },
+		{ label: 'Published Papers', url: '/published-papers' },
+		{ label: 'Social Responsibility', url: '/social-responsibility' },
+		{ label: 'Contact', url: '/contact' },
       ]
 
 	  const mobileMenuOpen = ref(false);
