@@ -8,22 +8,22 @@
                 </span>
             </div>
 				<div class="px-5 py-2">
-					<a href="SUCCESS_IS_NOT_BY_CHANCE" target="_blank" class="text-base leading-6 text-gray-800 hover:text-blue-800">
+					<a href="SUCCESS_IS_NOT_BY_CHANCE" target="_blank" class="text-base leading-6 text-gray-800 hover:text-blue-800" download>
 						Success is Not by Chance
 					</a>
 				</div>
 				<div class="px-5 py-2">
-					<a href="POWER_TO_WRITE_YOUR_OWN_DESTINY.pdf" target="_blank" class="text-base leading-6 text-gray-800 hover:text-blue-800">
+					<a href="POWER_TO_WRITE_YOUR_OWN_DESTINY.pdf" target="_blank" class="text-base leading-6 text-gray-800 hover:text-blue-800" download>
 						Power to Write Your Own Destiny
 					</a>
 				</div>
 				<div class="px-5 py-2">
-					<a href="KHUD_BADLE_APNE_KISMAT.pdf" target="_blank" class="text-base leading-6 text-gray-800 hover:text-blue-800">
+					<a href="KHUD_BADLE_APNE_KISMAT.pdf" target="_blank" class="text-base leading-6 text-gray-800 hover:text-blue-800" download>
 						खुद बदलें अपनी किस्मत
 					</a>
 				</div>
 				<div class="px-5 py-2">
-					<a href="JID_KARO_AUR_SAFLTA_PAO.pdf" target="_blank" class="text-base leading-6 text-gray-800 hover:text-blue-800">
+					<a href="JID_KARO_AUR_SAFLTA_PAO.pdf" target="_blank" class="text-base leading-6 text-gray-800 hover:text-blue-800" download>
 						जिद करो और सफलता पाओ
 					</a>
 				</div>

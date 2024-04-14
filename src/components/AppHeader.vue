@@ -21,7 +21,7 @@ const menuItems = [
           subMenu: [
             { label: 'Bus facility to Staff', url: '/bus-facility' },
             { label: 'Maheshwari Public School Computerisation', url: '/maheshwari-computerisation' },
-            { label: 'Demotion of Officiating Principal', url: '/' },
+            { label: 'Demotion of Officiating Principal', url: '/demotion-principal' },
 			{ label: 'Demotion of Vice Principal', url: '/demotion-vice-principal' },
 			{ label: 'Administrators are Born not Trained', url: '/admin-are-born' }
           ],

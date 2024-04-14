@@ -8,15 +8,10 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AppHeader: typeof import('./src/components/AppHeader.vue')['default']
-    Button: typeof import('primevue/button')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
-    InputText: typeof import('primevue/inputtext')['default']
-    Menubar: typeof import('primevue/menubar')['default']
     MenuBar: typeof import('./src/components/MenuBar.vue')['default']
     MenuItem: typeof import('./src/components/MenuItem.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    SplitButton: typeof import('primevue/splitbutton')['default']
-    Toolbar: typeof import('primevue/toolbar')['default']
   }
 }
