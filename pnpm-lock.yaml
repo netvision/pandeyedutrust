@@ -56,8 +56,8 @@ dependencies:
 
 devDependencies:
   '@iconify/json':
-    specifier: ^2.1.78
-    version: 2.1.78
+    specifier: ^2.2.201
+    version: 2.2.201
   '@intlify/vite-plugin-vue-i18n':
     specifier: ^5.0.0
     version: 5.0.0(vite@3.0.0)(vue-i18n@9.1.10)
@@ -1299,11 +1299,11 @@ packages:
       '@babel/helper-validator-identifier': 7.18.6
       to-fast-properties: 2.0.0
 
-  /@iconify/json@2.1.78:
-    resolution: {integrity: sha512-WxWKgVEsnnj6pQVO9zOCYq3kIDIIbAv+RDxfU66DJw16BjKjXxcUyCDEARFRbqodSFd1p7o6Uw4zJ5iggItaQg==}
+  /@iconify/json@2.2.201:
+    resolution: {integrity: sha512-5jM9TAa55YSEfx2WX1/GsHL9FSSH1PsA38V3p26SDmnOSmfb3V7r5yBgO8oIFkXdFQFk59MgESEOziapNtTGkw==}
     dependencies:
       '@iconify/types': 1.1.0
-      pathe: 0.3.2
+      pathe: 1.1.2
     dev: true
 
   /@iconify/types@1.1.0:
@@ -3980,6 +3980,10 @@ packages:
     resolution: {integrity: sha512-d+RQGp0MAYTIaDBIMmOfMwz3E+LOZnxx1HZd5R18mmCZY0QBlK0LDZfPc8FW8Ed2DlvsuE6PRjroDY+wg4+j/Q==}
     dev: true
 
+  /pathe@1.1.2:
+    resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
+    dev: true
+
   /pathval@1.1.1:
     resolution: {integrity: sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==}
     dev: true
@@ -4567,7 +4571,7 @@ packages:
   /strip-literal@0.4.0:
     resolution: {integrity: sha512-ql/sBDoJOybTKSIOWrrh8kgUEMjXMwRAkZTD0EwiwxQH/6tTPkZvMIEjp0CRlpi6V5FMiJyvxeRkEi1KrGISoA==}
     dependencies:
-      acorn: 8.10.0
+      acorn: 8.11.3
     dev: true
 
   /supports-color@5.5.0:
@@ -5389,6 +5393,7 @@ packages:
 
   /workbox-google-analytics@6.5.3:
     resolution: {integrity: sha512-3GLCHotz5umoRSb4aNQeTbILETcrTVEozSfLhHSBaegHs1PnqCmN0zbIy2TjTpph2AGXiNwDrWGF0AN+UgDNTw==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.3
       workbox-core: 6.5.3
