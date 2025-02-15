@@ -11,13 +11,23 @@
 		<div class="flex flex-col items-start mt-6 bg-white border border-gray-100 rounded-lg shadow md:flex-row md:max-w-3xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
 			<img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg p-3 border rounded-1 m-2" src="/mrs-indu-pandey.jpg" alt="Mrs. Indu Pandey">
 			<div class="flex flex-col justify-between p-4 leading-normal">
-				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ms. Indu Pandey</h5>
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Late Ms. Indu Pandey <span class="text-sm">(13.01.1965 - 01.11.2024)</span></h5>
+				<h6 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Founder</h6>
+				<p>A social worker by profession, conceived formation of Pandey Education Trust in the year 1995 in the memory of her late father-in-law Sri S. N. Pandey, an educationist of repute and a social worker. Started in a small way in her native village in Bihar, the organization has grown having five technical members on its Board who are known figure in School & College education taking care of 16 ongoing projects. She had on her credit completion of 7 turnkey education projects. Pandey Education Trust is a non government non profitable organization and the earning goes for providing quality education to the students of underprivileged and deprived classes.</p>
+
+<p>Ms. Pandey was having expertise in HR and provided a support to its member and getting the work completed according to clients’ suitability. She had inbuilt leadership quality to handle such assignments.</p>
+
+<p>She had authored six books and her 15 research papers had been published in Journals of repute on modern trends in education. She was pioneer in establishing “Synchronized Study System” in her projects. Her team consists of professional and educationists of repute who are a name to reckon with in their area of operation.</p>
+			</div>
+		</div>
+
+		<div class="flex flex-col items-start mt-6 bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-3xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+			<img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg p-3 border rounded-1 m-2" src="/msjayati.jpg" alt="Ms. Jayati">
+			<div class="flex flex-col justify-between p-4 leading-normal">
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ms. Jayati</h5>
 				<h6 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">President</h6>
-				<p>Born in 1965 and a social worker by profession, conceived formation of Pandey Education Trust in the year 1995 in the memory of her late father-in-law Sri S. N. Pandey, an educationist of repute and a social worker. Started in a small way in her native village in Bihar, the organization has grown having five technical members on its Board who are known figure in School & College education taking care of 16 ongoing projects. She has on her credit completion of 7 turnkey education projects. Pandey Education Trust is a non government non profitable organization and the earning goes for providing quality education to the students of underprivileged and deprived classes.</p>
-
-<p>Ms. Pandey has got expertise in HR and provides a support to its member and getting the work completed according to clients’ suitability. She has inbuilt leadership quality to handle such assignments.</p>
-
-<p>She has authored six books and her 15 research papers have been published in Journals of repute on modern trends in education. She is pioneer in establishing “Synchronized Study System” in her projects. Her team consists of professional and educationists of repute who are a name to reckon with in their area of operation.</p>
+				<p>A young lady with an M. Sc. (Mathematics) &amp; B.Ed. believes in the theory that anyone can do well in Mathematics and those who are confident of solving numerical are good at getting solutions to the problem. She creates an environment of team working and helps everyone to learn everything for the betterment of the project.</p>
+				<p>Took the charge of President on 02.11.2024 after the demise of Mrs. Indu Pandey</p>
 			</div>
 		</div>
 
@@ -87,15 +97,6 @@
 				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mr. Saurov</h5>
 				<h6 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Consultant (Programme)</h6>
 				<p>A young boy of 25 yrs having a B.E. degree in (Electronics &amp; Communication).He has update knowledge of affiliating Boards and recent trends in education. He manages the show without getting perturbed. He is also a humorous programme manager with sound background of science training and is an asset to the organization. Prepares client suited projects.</p>
-			</div>
-		</div>
-
-		<div class="flex flex-col items-start mt-6 bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-3xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-			<img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg p-3 border rounded-1 m-2" src="/msjayati.jpg" alt="Ms. Jayati">
-			<div class="flex flex-col justify-between p-4 leading-normal">
-				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ms. Jayati</h5>
-				<h6 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Consultant (Training- Mathematics)</h6>
-				<p>A young lady with an M. Sc. (Mathematics) &amp; B.Ed. believes in the theory that anyone can do well in Mathematics and those who are confident of solving numerical are good at getting solutions to the problem. She creates an environment of team working and helps everyone to learn everything for the betterment of the project.</p>
 			</div>
 		</div>
 
