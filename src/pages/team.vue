@@ -24,7 +24,7 @@
 		<div class="flex flex-col items-start mt-6 bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-3xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
 			<img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg p-3 border rounded-1 m-2" src="/msjayati.jpg" alt="Ms. Jayati">
 			<div class="flex flex-col justify-between p-4 leading-normal">
-				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ms. Jayati</h5>
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ms. Jayati Pandey</h5>
 				<h6 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">President</h6>
 				<p>A young lady with an M. Sc. (Mathematics) &amp; B.Ed. believes in the theory that anyone can do well in Mathematics and those who are confident of solving numerical are good at getting solutions to the problem. She creates an environment of team working and helps everyone to learn everything for the betterment of the project.</p>
 				<p>Took the charge of President on 02.11.2024 after the demise of Mrs. Indu Pandey</p>
