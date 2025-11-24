@@ -1,60 +1,212 @@
 <script setup>
 	useHead({
-		title: 'Pandey Education Trust',
+		title: 'Consultancy Services - Pandey Education Trust',
 	});
 </script>
 
 <template>
 	<AppHeader />
-	<div class="content text-justify w-full md:w-4/5 p-6 m-auto">
-		<h2 class="text-3xl border-b-2 pb-2 mb-5">THE RANGE AND TYPE OF CONSULTENCY SERVICES OFFERED</h2>
-		<h3>DEVELOPING NEW SCHOOL</h3>
-		<ul>
-			<li>Montessori Schools</li>
-			<li>Primary Schools</li>
-			<li>Secondary Schools</li>
-			<li>Senior Secondary Schools</li>
-			<li>Day Boarding schools</li>
-			<li>Residential Public Schools</li>
-		</ul>
-		<h3>REVAMPING EXISTING EDUCATIONAL INSTITUTIONS</h3>
-		<ul>
-			<li>Opening Branches for any type of existing Educational Institute.</li>
-			<li>Preparing feasibility reports for any Educational Institution.</li>
-			<li>Revamping any educational system</li>
-		</ul>
-		<h3>SPECIALIZED JOB OFFERED</h3>
-		<ul>
-			<li>Preparation of a DPR (Detailed Project Report) on the basis of BLS.</li>
-			<li>Documentation for registration / NOC with State Govt.</li>
-			<li>Documentation for affiliation from CBSE/ISCE/State Board.</li>
-			<li>Computerization of the administrative and academic fields of work.</li>
-			<li>Development of Reporting Systems.</li>
-			<li>Planning of publicity campaigns.</li>
-			<li>Building of the school image.</li>
-			<li>Conduct of Entrance exams.</li>
-			<li>Staff Recruitment.</li>
-			<li>Orientation and training of academic staff in various fields.</li>
-			<li>Academic Audit.</li>
-			<li>Development of Evaluation systems for students.</li>
-			<li>Development of performance analyzers for academic staff.</li>
-			<li>Organization of School transport systems</li>
-		</ul>
-	</div>
+	
+	<main class="min-h-screen bg-neutral-50">
+		<div class="section-container">
+			<!-- Page Title -->
+			<div class="text-center mb-12 animate-fade-in-up">
+				<h1 class="section-title gradient-text mb-4">
+					Consultancy Services
+				</h1>
+				<p class="section-subtitle max-w-3xl mx-auto">
+					Comprehensive educational consultancy services for institutions across India
+				</p>
+			</div>
+
+			<!-- CBSE / ICSE Consultancy Services -->
+			<div class="glass-card p-8 mb-8 animate-fade-in">
+				<h2 class="text-2xl md:text-3xl font-heading font-bold text-neutral-900 mb-6 flex items-center gap-3">
+					<div class="bg-gradient-to-br from-primary-500 to-primary-600 p-3 rounded-xl">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+						</svg>
+					</div>
+					CBSE / ICSE Consultancy Services
+				</h2>
+				
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Fresh Affiliation up to secondary level</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Fresh Affiliation up to senior secondary level</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Switch over from other boards to CBSE</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Extension of Affiliation</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Upgradation to secondary level</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Upgradation to Senior secondary level</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Section increase</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Increase / Decrease in Land area</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Introduction of additional subject</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Permission of two shifts</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Permission of change of name of school/society/trust/company</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Transfer of school from one society/trust/company to another</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Permission of site shifting</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Restoration of affiliation (on case-to-case basis)</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Branch school</span>
+					</div>
+					<div class="flex items-start gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+						</svg>
+						<span class="text-neutral-700">Closure of school</span>
+					</div>
+				</div>
+
+				<div class="mt-6 p-4 bg-primary-50 rounded-xl border-l-4 border-primary-600">
+					<p class="text-neutral-700 leading-relaxed">
+						We provide support for all CBSE / ICSE-related duties, day-to-day activities, and services such as monitoring OASIS, LOC, MPD, SQAAF, trainings, and others.
+					</p>
+				</div>
+			</div>
+
+			<!-- In-House Intervention Partnership -->
+			<div class="glass-card p-8 mb-8 animate-fade-in" style="animation-delay: 0.1s;">
+				<h2 class="text-2xl md:text-3xl font-heading font-bold text-neutral-900 mb-6 flex items-center gap-3">
+					<div class="bg-gradient-to-br from-accent-500 to-accent-600 p-3 rounded-xl">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+						</svg>
+					</div>
+					In-House Intervention Partnership
+				</h2>
+
+				<p class="text-neutral-700 leading-relaxed mb-6">
+					PET aims to deliver a measurable <strong class="text-accent-600">15% improvement in academic results</strong> and a <strong class="text-accent-600">15% increase in school finances</strong> within a year, driven by targeted in-house training and performance monitoring.
+				</p>
+
+				<h3 class="text-xl font-heading font-semibold text-neutral-900 mb-4">Key Objectives & Expected Outcomes:</h3>
+				
+				<div class="space-y-3">
+					<div class="flex items-start gap-3 p-4 bg-white rounded-lg border border-neutral-200">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+						</svg>
+						<p class="text-neutral-700">Achieve a <strong>15% improvement in academic performance</strong> through structured in-house student training and personalized mentoring.</p>
+					</div>
+					<div class="flex items-start gap-3 p-4 bg-white rounded-lg border border-neutral-200">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+						</svg>
+						<p class="text-neutral-700">Realize a <strong>15% growth in school finances</strong> through improved enrolment, retention, and community trust.</p>
+					</div>
+					<div class="flex items-start gap-3 p-4 bg-white rounded-lg border border-neutral-200">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+						</svg>
+						<p class="text-neutral-700">Develop critical <strong>21st-century skills</strong> among staff and students including communication, digital literacy, leadership, and problem-solving.</p>
+					</div>
+					<div class="flex items-start gap-3 p-4 bg-white rounded-lg border border-neutral-200">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+						</svg>
+						<p class="text-neutral-700">Establish a <strong>replicable and sustainable training model</strong> managed by Pandey Education Trust.</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Other Consultancy Services -->
+			<div class="glass-card p-8 animate-fade-in" style="animation-delay: 0.2s;">
+				<h2 class="text-2xl md:text-3xl font-heading font-bold text-neutral-900 mb-6 flex items-center gap-3">
+					<div class="bg-gradient-to-br from-primary-500 to-primary-600 p-3 rounded-xl">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+						</svg>
+					</div>
+					Other Consultancy Services
+				</h2>
+
+				<h3 class="text-xl font-heading font-semibold text-neutral-900 mb-4">Developing New School</h3>
+				<div class="flex items-start gap-3 mb-6">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+					</svg>
+					<span class="text-neutral-700">Montessori Schools, and more...</span>
+				</div>
+			</div>
+		</div>
+	</main>
+	
 	<Footer />
 </template>
-<style scoped>
-p {
-	@apply p-3;
-}
-h3{
-	@apply mb-2 text-lg font-semibold text-gray-900;
-}
-ul {
-	@apply ml-8 max-w-md space-y-1 text-gray-800 list-disc;
-}
-</style>
 
 <route lang="yaml">
 name: services
 </route>
+

@@ -1,3 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        /* Primary Colors - Deep Educational Blues */
+        --color-primary-50: #eff6ff;
+        --color-primary-100: #dbeafe;
+        --color-primary-200: #bfdbfe;
+        --color-primary-300: #93c5fd;
+        --color-primary-400: #60a5fa;
+        --color-primary-500: #3b82f6;
+        --color-primary-600: #2563eb;
+        --color-primary-700: #1d4ed8;
+        --color-primary-800: #1e40af;
+        --color-primary-900: #1e3a8a;
+        --color-primary-950: #172554;
+
+        /* Accent Colors - Warm Orange/Amber */
+        --color-accent-50: #fffbeb;
+        --color-accent-100: #fef3c7;
+        --color-accent-200: #fde68a;
+        --color-accent-300: #fcd34d;
+        --color-accent-400: #fbbf24;
+        --color-accent-500: #f59e0b;
+        --color-accent-600: #d97706;
+        --color-accent-700: #b45309;
+        --color-accent-800: #92400e;
+        --color-accent-900: #78350f;
+
+        /* Neutral Colors */
+        --color-neutral-50: #f8fafc;
+        --color-neutral-100: #f1f5f9;
+        --color-neutral-200: #e2e8f0;
+        --color-neutral-300: #cbd5e1;
+        --color-neutral-400: #94a3b8;
+        --color-neutral-500: #64748b;
+        --color-neutral-600: #475569;
+        --color-neutral-700: #334155;
+        --color-neutral-800: #1e293b;
+        --color-neutral-900: #0f172a;
+
+        /* Success/Info/Warning/Error */
+        --color-success: #10b981;
+        --color-info: #0ea5e9;
+        --color-warning: #f59e0b;
+        --color-error: #ef4444;
+
+        /* Gradients */
+        --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        --gradient-warm: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        --gradient-ocean: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        --gradient-sunset: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        --gradient-education: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #60a5fa 100%);
+    }
+
+    body {
+        @apply bg-neutral-50 text-neutral-900 font-sans antialiased;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        @apply font-bold tracking-tight;
+    }
+
+    h1 {
+        @apply text-4xl md:text-5xl lg:text-6xl;
+    }
+
+    h2 {
+        @apply text-3xl md:text-4xl lg:text-5xl;
+    }
+
+    h3 {
+        @apply text-2xl md:text-3xl lg:text-4xl;
+    }
+
+    h4 {
+        @apply text-xl md:text-2xl lg:text-3xl;
+    }
+
+    h5 {
+        @apply text-lg md:text-xl lg:text-2xl;
+    }
+
+    h6 {
+        @apply text-base md:text-lg lg:text-xl;
+    }
+}
+
+@layer components {
+
+    /* Glass Morphism Card */
+    .glass-card {
+        @apply bg-white/80 backdrop-blur-lg rounded-2xl shadow-xl border border-white/20;
+    }
+
+    /* Premium Button Styles */
+    .btn-primary {
+        @apply px-6 py-3 bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 ease-out;
+    }
+
+    .btn-secondary {
+        @apply px-6 py-3 bg-gradient-to-r from-accent-500 to-accent-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 ease-out;
+    }
+
+    .btn-outline {
+        @apply px-6 py-3 border-2 border-primary-600 text-primary-600 font-semibold rounded-lg hover:bg-primary-600 hover:text-white transition-all duration-300 ease-out;
+    }
+
+    /* Section Styles */
+    .section-container {
+        @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20;
+    }
+
+    .section-title {
+        @apply text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900 mb-4;
+    }
+
+    .section-subtitle {
+        @apply text-lg md:text-xl text-neutral-600 mb-8;
+    }
+
+    /* Card Hover Effects */
+    .hover-lift {
+        @apply transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl;
+    }
+
+    /* Gradient Text */
+    .gradient-text {
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 via-primary-500 to-accent-500;
+    }
+
+    /* Link Styles */
+    .link-primary {
+        @apply text-primary-600 hover:text-primary-700 font-medium transition-colors duration-200;
+    }
+
+    /* Input Styles */
+    .input-field {
+        @apply w-full px-4 py-3 border-2 border-neutral-300 rounded-lg focus:border-primary-500 focus:ring-2 focus:ring-primary-200 transition-all duration-200;
+    }
+}
+
+@layer utilities {
+
+    /* Custom Animations */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInRight {
+        from {
+            opacity: 0;
+            transform: translateX(30px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes pulse-slow {
+
+        0%,
+        100% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0.8;
+        }
+    }
+
+    .animate-fade-in-up {
+        animation: fadeInUp 0.6s ease-out;
+    }
+
+    .animate-fade-in {
+        animation: fadeIn 0.6s ease-out;
+    }
+
+    .animate-slide-in-right {
+        animation: slideInRight 0.6s ease-out;
+    }
+
+    .animate-pulse-slow {
+        animation: pulse-slow 3s ease-in-out infinite;
+    }
+
+    /* Scrollbar Styling */
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-track {
+        @apply bg-neutral-100 rounded-full;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        @apply bg-primary-400 rounded-full hover:bg-primary-500;
+    }
+}
