@@ -231,11 +231,11 @@ onMounted(() => {
 										{{ slide.subtitle }}
 									</p>
 									<div class="flex gap-4">
-										<a href="/contact" class="btn-primary">
-											Get in Touch
-										</a>
 										<a href="/services" class="btn-outline bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary-600">
 											Our Services
+										</a>
+										<a href="/contact" class="btn-primary">
+											Get in Touch
 										</a>
 									</div>
 								</div>
