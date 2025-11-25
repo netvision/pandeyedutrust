@@ -2,15 +2,25 @@
 import headerImg from "@/assets/header.jpg"
 import call from "@/assets/phone-call.svg"
 
+// Props
+const props = defineProps({
+	showCarousel: {
+		type: Boolean,
+		default: false
+	}
+});
+
 const menuItems = [
         { label: 'Home', url: '/' },
         {
           label: 'Services Offered',
           subMenu: [
-            { label: 'Consultancy Services', url: '/services' },
+            { label: 'CBSE/ICSE Consultancy Services', url: '/cbse-icse-consultancy' },
+            { label: 'In-House Intervention Partnership', url: '/inhouse-intervention' },
+            { label: 'Other Consultancy Services', url: '/other-consultancy' },
             { label: 'Staff Recruitment', url: '/staff-recruitment' },
             { label: 'Staff Training', url: '/staff-training' },
-			{ label: 'ONLINE SUPPORT SYSTEM', url: '/support' }
+			{ label: 'Online Support System', url: '/support' }
           ],
           showArrow: true
         },
@@ -36,20 +46,20 @@ const menuItems = [
 	  const scrolled = ref(false);
 	  const currentSlide = ref(0);
 
-	  // Carousel slides - using collage.jpg
+	  // Carousel slides - using slide1.png
 	  const slides = [
 		{
-			image: '/collage.jpg',
+			image: '/slide1.png',
 			title: 'Pandey Education Trust',
 			subtitle: 'A Trusted Name in Quality Education Consultancy'
 		},
 		{
-			image: '/collage.jpg',
+			image: '/slide1.png',
 			title: 'Expert Consultancy Services',
 			subtitle: 'Empowering Educational Institutions for Over 18 Years'
 		},
 		{
-			image: '/collage.jpg',
+			image: '/slide1.png',
 			title: 'Quality Education',
 			subtitle: 'Developing Standards for Maximum Child Development'
 		}
@@ -104,21 +114,21 @@ onMounted(() => {
 			]"
 		>
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div class="flex items-center justify-between h-20 md:h-24">
+				<div class="flex items-end justify-between h-24 md:h-28 lg:h-32">
 					<!-- Logo/Brand Area -->
-				<div class="flex items-center">
-					<!-- Logo - Larger and More Prominent -->
-					<a href="/" class="flex items-center">
-						<img 
-							src="/pet-transparent-logo.png" 
-							alt="Pandey Education Trust" 
-							class="h-14 md:h-16 lg:h-20 w-auto object-contain transition-all duration-200 hover:scale-105"
-						/>
-					</a>
-				</div>
+					<div class="flex items-end pb-2">
+						<!-- Logo - Larger and More Prominent -->
+						<a href="/" class="flex items-center">
+							<img 
+								src="/pet-logo.jpg" 
+								alt="Pandey Education Trust" 
+								class="h-16 md:h-20 lg:h-24 w-auto object-contain transition-all duration-200 hover:scale-105"
+							/>
+						</a>
+					</div>
 
 					<!-- Mobile Menu Button -->
-					<div class="flex md:hidden">
+					<div class="flex md:hidden items-end pb-2">
 						<button 
 							@click="toggleMobileMenu" 
 							:class="[
@@ -148,8 +158,8 @@ onMounted(() => {
 						</button>
 					</div>
 
-					<!-- Desktop Menu -->
-					<div class="hidden md:flex md:flex-1 md:justify-center">
+					<!-- Desktop Menu - Bottom Aligned -->
+					<div class="hidden md:flex md:flex-1 md:justify-center items-end pb-2">
 						<div class="flex items-center space-x-1">
 							<MenuItem 
 								v-for="(item, index) in menuItems" 
@@ -185,8 +195,8 @@ onMounted(() => {
 			</div>
 		</nav>
 
-		<!-- Carousel/Hero Section (Below Navigation) -->
-		<div class="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden bg-neutral-900">
+		<!-- Carousel/Hero Section (Below Navigation) - Only on Home Page -->
+		<div v-if="showCarousel" class="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden bg-neutral-900">
 			<!-- Slides -->
 			<div class="relative w-full h-full">
 				<transition-group

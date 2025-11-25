@@ -22,26 +22,56 @@
 			<!-- Team Members -->
 			<div class="max-w-5xl mx-auto space-y-8">
 				
-				<!-- Indu Pandey - Founder -->
-				<div class="glass-card overflow-hidden hover-lift animate-fade-in">
-					<div class="md:flex">
-						<div class="md:flex-shrink-0">
-							<img class="h-64 w-full object-cover md:h-full md:w-64" src="/mrs-indu-pandey.jpg" alt="Ms. Indu Pandey">
-						</div>
-						<div class="p-8">
-							<div class="mb-4">
-								<h2 class="text-2xl font-heading font-bold text-neutral-900">Late Ms. Indu Pandey</h2>
-								<p class="text-sm text-neutral-600 mt-1">(13.01.1965 - 01.11.2024)</p>
-								<p class="text-accent-600 font-semibold mt-2">Founder</p>
+			<!-- Indu Pandey - Founder (Special Card) -->
+			<div class="relative animate-fade-in">
+				<!-- Golden gradient border wrapper -->
+				<div class="absolute inset-0 bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-400 rounded-2xl blur-sm opacity-75"></div>
+				<div class="relative bg-white rounded-2xl overflow-hidden shadow-2xl">
+					<!-- Premium header banner -->
+					<div class="bg-gradient-to-r from-amber-50 via-yellow-50 to-amber-50 border-b-2 border-amber-200 px-8 py-4">
+						<div class="flex items-center gap-3">
+							<div class="bg-gradient-to-br from-amber-500 to-yellow-600 p-2 rounded-lg">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+								</svg>
 							</div>
-							<div class="text-neutral-700 space-y-3 text-sm leading-relaxed">
-								<p>A social worker by profession, conceived formation of Pandey Education Trust in the year 1995 in the memory of her late father-in-law Sri S. N. Pandey, an educationist of repute and a social worker. Started in a small way in her native village in Bihar, the organization has grown having five technical members on its Board who are known figure in School & College education taking care of 16 ongoing projects.</p>
+							<div>
+								<p class="text-amber-900 font-bold text-lg">Founder</p>
+								<p class="text-amber-700 text-sm">In Loving Memory</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="md:flex">
+						<div class="md:flex-shrink-0 relative">
+							<img class="h-80 w-full object-cover md:h-full md:w-80" src="/mrs-indu-pandey.jpg" alt="Ms. Indu Pandey">
+							<!-- Image overlay gradient -->
+							<div class="absolute inset-0 bg-gradient-to-t from-amber-900/20 to-transparent"></div>
+						</div>
+						<div class="p-8 bg-gradient-to-br from-white via-amber-50/30 to-white">
+							<div class="mb-6">
+								<h2 class="text-3xl font-heading font-bold bg-gradient-to-r from-amber-900 via-yellow-800 to-amber-900 bg-clip-text text-transparent">
+									Late Ms. Indu Pandey
+								</h2>
+								<p class="text-sm text-neutral-600 mt-2 font-medium">(13.01.1965 - 01.11.2024)</p>
+								<div class="mt-3 inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-amber-100 to-yellow-100 border border-amber-300 rounded-full">
+									<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-amber-700" fill="currentColor" viewBox="0 0 24 24">
+										<path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+									</svg>
+									<span class="text-amber-900 font-bold text-sm">Visionary Founder</span>
+								</div>
+							</div>
+							<div class="text-neutral-700 space-y-4 text-sm leading-relaxed">
+								<p class="border-l-4 border-amber-400 pl-4 italic">
+									A social worker by profession, conceived formation of Pandey Education Trust in the year 1995 in the memory of her late father-in-law Sri S. N. Pandey, an educationist of repute and a social worker. Started in a small way in her native village in Bihar, the organization has grown having five technical members on its Board who are known figure in School & College education taking care of 16 ongoing projects.
+								</p>
 								<p>Ms. Pandey was having expertise in HR and provided a support to its member and getting the work completed according to clients' suitability. She had inbuilt leadership quality to handle such assignments.</p>
 								<p>She had authored six books and her 15 research papers had been published in Journals of repute on modern trends in education. She was pioneer in establishing "Synchronized Study System" in her projects.</p>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 
 				<!-- Dr. A.K. Pandey - CEO -->
 				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.1s;">
@@ -85,12 +115,8 @@
 				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.3s;">
 					<div class="md:flex">
 						<div class="md:flex-shrink-0">
-							<div class="h-64 w-full md:h-full md:w-64 bg-gradient-to-br from-primary-100 to-accent-100 flex items-center justify-center">
-								<svg xmlns="http://www.w3.org/2000/svg" class="h-32 w-32 text-primary-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-								</svg>
-							</div>
-						</div>
+					<img class="h-64 w-full object-cover md:h-full md:w-64" src="/pavan.jpg" alt="Mr. Pavan Kumar">
+				</div>
 						<div class="p-8">
 							<div class="mb-4">
 								<h2 class="text-2xl font-heading font-bold text-neutral-900">Mr. Pavan Kumar</h2>
@@ -123,25 +149,6 @@
 					</div>
 				</div>
 
-				<!-- Mr. Shashank -->
-				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.5s;">
-					<div class="md:flex">
-						<div class="md:flex-shrink-0">
-							<img class="h-64 w-full object-cover md:h-full md:w-64" src="/Shshank-Pandey.jpg" alt="Mr. Shashank">
-						</div>
-						<div class="p-8">
-							<div class="mb-4">
-								<h2 class="text-2xl font-heading font-bold text-neutral-900">Mr. Shashank</h2>
-								<p class="text-primary-600 font-semibold mt-2">Project Strategist & Training - Pre-Primary</p>
-							</div>
-							<div class="text-neutral-700 space-y-3 text-sm leading-relaxed">
-								<p>A dynamic Project Strategist & Trainer specializing in pre-primary education, this young professional brings energy and innovation to every institution he joins.</p>
-								<p>Renowned for implementing effective, proven strategies, he consistently helps schools achieve their projected academic and developmental goals.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
 				<!-- Ms. Jayati Pandey -->
 				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.6s;">
 					<div class="md:flex">
@@ -161,58 +168,20 @@
 					</div>
 				</div>
 
-				<!-- Dr. S.K. Pandey -->
-				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.7s;">
+				<!-- Mr. Shashank -->
+				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.5s;">
 					<div class="md:flex">
 						<div class="md:flex-shrink-0">
-							<img class="h-64 w-full object-cover md:h-full md:w-64" src="/skpandey.jpg" alt="Dr. S.K. Pandey">
+					<img class="h-64 w-full object-cover md:h-full md:w-64" src="/shashank.jpg" alt="Mr. Shashank">
 						</div>
 						<div class="p-8">
 							<div class="mb-4">
-								<h2 class="text-2xl font-heading font-bold text-neutral-900">Dr. S.K. Pandey</h2>
-								<p class="text-primary-600 font-semibold mt-2">Training – Social Sciences</p>
+								<h2 class="text-2xl font-heading font-bold text-neutral-900">Mr. Shashank</h2>
+								<p class="text-primary-600 font-semibold mt-2">Project Strategist & Training - Pre-Primary</p>
 							</div>
 							<div class="text-neutral-700 space-y-3 text-sm leading-relaxed">
-								<p>Dr Sushil has acquired his knowledge through constant practice. He has written more than 15 books on Social Sciences to make this subject lucid and easy to learn.</p>
-								<p>Being a compulsory subject up to Class X in all Boards it has not been easy to create interest of the students in this subject. The friendly attitude of Dr Sushil has made it easily comprehendible subject for all those who almost hate it.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Mr. R.K. Pandey -->
-				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.8s;">
-					<div class="md:flex">
-						<div class="md:flex-shrink-0">
-							<img class="h-64 w-full object-cover md:h-full md:w-64" src="/rkpandey.jpg" alt="Mr. R.K. Pandey">
-						</div>
-						<div class="p-8">
-							<div class="mb-4">
-								<h2 class="text-2xl font-heading font-bold text-neutral-900">Mr. R.K. Pandey</h2>
-								<p class="text-primary-600 font-semibold mt-2">Training - Language</p>
-							</div>
-							<div class="text-neutral-700 space-y-3 text-sm leading-relaxed">
-								<p>Having Master in English Literature and Master in Distance Education Mr. Rajesh Pandey believes in achieving his goal through Management by Objectives. He gets everything planned from his team members and ensures to achieve the same in the line decided according to the quality control.</p>
-								<p>He has also completed his PGCTE from CIEFEL, Hyderabad and attained a lot number of seminar and conferences to make him professionally competent for the job. He is a good language trainer as well as trainer in the field of Indian culture. Apart from being a full time senior English Teacher, he is associated a number Management Institutes in and around Kolkata as Soft Skill Trainer.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Mr. Abhishek Mishra -->
-				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.9s;">
-					<div class="md:flex">
-						<div class="md:flex-shrink-0">
-							<img class="h-64 w-full object-cover md:h-full md:w-64" src="/abishekmishra.jpg" alt="Mr. Abhishek Mishra">
-						</div>
-						<div class="p-8">
-							<div class="mb-4">
-								<h2 class="text-2xl font-heading font-bold text-neutral-900">Mr. Abhishek Mishra</h2>
-								<p class="text-primary-600 font-semibold mt-2">Computerization</p>
-							</div>
-							<div class="text-neutral-700 space-y-3 text-sm leading-relaxed">
-								<p>B. Tech. in IT and MBA in Marketing from IIITM, Gwalior. Developed a number of school based software which can be justified according to clients' suitability.</p>
-								<p>He believes in empowering the people to complete the work at their own and teaching them how to achieve it. He is a person with strong time management and zeal of achieving the target within dead line. His application based softwares are being used by a number of educational institutions.</p>
+								<p>A dynamic Project Strategist & Trainer specializing in pre-primary education, this young professional brings energy and innovation to every institution he joins.</p>
+								<p>Renowned for implementing effective, proven strategies, he consistently helps schools achieve their projected academic and developmental goals.</p>
 							</div>
 						</div>
 					</div>
