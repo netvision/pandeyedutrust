@@ -41,7 +41,7 @@
 								</svg>
 							</div>
 							<div>
-								<h3 class="font-semibold text-neutral-900 mb-2">Address</h3>
+								<h3 class="font-medium text-neutral-900 mb-2 text-base">Address</h3>
 								<p class="text-neutral-700 text-sm leading-relaxed">
 									2, Puran Badi, Model Town C<br>
 									Malviya Nagar, Jaipur – 302017<br>
@@ -58,7 +58,7 @@
 								</svg>
 							</div>
 							<div>
-								<h3 class="font-semibold text-neutral-900 mb-2">Phone</h3>
+								<h3 class="font-medium text-neutral-900 mb-2 text-base">Phone</h3>
 								<p class="text-neutral-700 text-sm">
 									<a href="tel:+919640036681" class="link-primary block">+91-9640036681</a>
 									<a href="tel:+918696288426" class="link-primary block">+91-8696288426</a>
@@ -75,7 +75,7 @@
 								</svg>
 							</div>
 							<div>
-								<h3 class="font-semibold text-neutral-900 mb-2">Email</h3>
+								<h3 class="font-medium text-neutral-900 mb-2 text-base">Email</h3>
 								<a href="mailto:pandeyedutrust1995@gmail.com" class="link-primary text-sm">
 									pandeyedutrust1995@gmail.com
 								</a>
@@ -90,7 +90,7 @@
 								</svg>
 							</div>
 							<div>
-								<h3 class="font-semibold text-neutral-900 mb-2">Website</h3>
+								<h3 class="font-medium text-neutral-900 mb-2 text-base">Website</h3>
 								<a href="https://www.pandeyeducationtrust.org" target="_blank" class="link-primary text-sm">
 									www.pandeyeducationtrust.org
 								</a>
@@ -100,8 +100,8 @@
 
 					<!-- Contact Person -->
 					<div class="mt-8 p-6 bg-gradient-to-br from-primary-50 to-accent-50 rounded-xl border-l-4 border-primary-600">
-						<h3 class="font-semibold text-neutral-900 mb-2">Contact Person</h3>
-						<p class="text-lg font-bold text-primary-700">Dr. A. K. Pandey, CEO</p>
+						<h3 class="font-medium text-neutral-900 mb-2 text-base">Contact Person</h3>
+						<p class="text-lg font-bold text-primary-700">Pavan Kumar</p>
 					</div>
 				</div>
 			</div>

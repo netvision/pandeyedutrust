@@ -50,7 +50,7 @@
 						<div class="flex-1">
 							<h3 class="text-xl font-heading font-bold text-neutral-900 mb-3">30 Years of Excellence</h3>
 							<p class="text-neutral-700 leading-relaxed">
-								It is in this scenario that Pandey Education Trust offers experience and expertise for the last 18 years. Pandey Education Trust (PET) – a non-profitable charitable trust was conceptualized by Ms. Indu Pandey, born in 1965 and a social worker by profession, in the memory of her late father-in-law Sri S. N. Pandey, an educationist of repute and a social worker to further the cause of quality education in general and quality school education in particular across the country.
+								It is in this scenario that Pandey Education Trust offers experience and expertise for the last 30 years. Pandey Education Trust (PET) – a non-profitable charitable trust was conceptualized by Ms. Indu Pandey, born in 1965 and a social worker by profession, in the memory of her late father-in-law Sri S. N. Pandey, an educationist of repute and a social worker to further the cause of quality education in general and quality school education in particular across the country.
 							</p>
 						</div>
 					</div>
