@@ -3,7 +3,7 @@
 		<button 
 			@click="toggleDropdown"
 			:class="[
-				'px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center gap-1',
+				'px-4 py-1 rounded-lg text-sm font-medium transition-all duration-200 flex items-center gap-1',
 				mobile ? 'w-full justify-between' : '',
 				scrolled 
 					? 'text-neutral-700 hover:text-primary-600 hover:bg-primary-50' 
@@ -59,7 +59,7 @@
 		v-else 
 		:href="item.url" 
 		:class="[
-			'px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200',
+			'px-4 py-1 rounded-lg text-sm font-medium transition-all duration-200',
 			mobile ? 'block w-full text-left' : '',
 			scrolled 
 				? 'text-neutral-700 hover:text-primary-600 hover:bg-primary-50' 

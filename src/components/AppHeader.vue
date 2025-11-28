@@ -56,7 +56,7 @@ const menuItems = [
 		{
 			image: '/slide1.png',
 			title: 'Expert Consultancy Services',
-			subtitle: 'Empowering Educational Institutions for Over 18 Years'
+			subtitle: 'Empowering Educational Institutions for Over 30 Years'
 		},
 		{
 			image: '/slide1.png',
@@ -114,52 +114,37 @@ onMounted(() => {
 			]"
 		>
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div class="flex items-end justify-between h-24 md:h-28 lg:h-32">
-					<!-- Logo/Brand Area -->
-					<div class="flex items-end pb-2">
-						<!-- Logo - Larger and More Prominent -->
-						<a href="/" class="flex items-center">
-							<img 
-								src="/pet-logo.jpg" 
-								alt="Pandey Education Trust" 
-								class="h-16 md:h-20 lg:h-24 w-auto object-contain transition-all duration-200 hover:scale-105"
-							/>
-						</a>
-					</div>
+			<!-- Two-column layout: Left = Logo, Right = Heading + Menu -->
+			<div class="flex items-end gap-6 pt-1 pb-0">
+				<!-- Left Column: Logo -->
+				<div class="flex-shrink-0">
+					<a href="/" class="flex items-center">
+						<img 
+							src="/pet-logo.jpg" 
+							alt="Pandey Education Trust" 
+							class="h-16 md:h-20 lg:h-24 w-auto object-contain transition-all duration-200 hover:scale-105"
+						/>
+					</a>
+				</div>
 
-					<!-- Mobile Menu Button -->
-					<div class="flex md:hidden items-end pb-2">
-						<button 
-							@click="toggleMobileMenu" 
+				<!-- Right Column: Heading + Menu (stacked vertically) -->
+			<div class="flex-1 flex flex-col justify-end">
+					<!-- Organization Name -->
+				<div class="hidden md:flex justify-center">
+						<h1 
 							:class="[
-								'inline-flex items-center justify-center p-2 rounded-lg transition-all duration-200',
+								'font-heading font-bold leading-tight transition-all duration-300',
 								scrolled 
-									? 'text-primary-600 hover:bg-primary-50' 
-									: 'text-white hover:bg-white/10'
+									? 'text-primary-800 text-xl lg:text-2xl xl:text-3xl' 
+									: 'text-white text-xl lg:text-2xl xl:text-3xl drop-shadow-lg'
 							]"
-							aria-expanded="false"
 						>
-							<span class="sr-only">Open main menu</span>
-							<svg 
-								class="block h-6 w-6 transition-transform duration-200" 
-								:class="{ 'rotate-90': mobileMenuOpen }"
-								xmlns="http://www.w3.org/2000/svg" 
-								fill="none" 
-								viewBox="0 0 24 24" 
-								stroke="currentColor"
-							>
-								<path 
-									stroke-linecap="round" 
-									stroke-linejoin="round" 
-									stroke-width="2" 
-									:d="mobileMenuOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16m-7 6h7'"
-								/>
-							</svg>
-						</button>
+							PANDEY EDUCATION TRUST
+						</h1>
 					</div>
 
-					<!-- Desktop Menu - Bottom Aligned -->
-					<div class="hidden md:flex md:flex-1 md:justify-center items-end pb-2">
+					<!-- Desktop Menu -->
+					<div class="hidden md:flex justify-center">
 						<div class="flex items-center space-x-1">
 							<MenuItem 
 								v-for="(item, index) in menuItems" 
@@ -171,7 +156,39 @@ onMounted(() => {
 					</div>
 				</div>
 
-				<!-- Mobile Menu Dropdown -->
+				<!-- Mobile Menu Button -->
+				<div class="flex md:hidden items-center">
+					<button 
+						@click="toggleMobileMenu" 
+						:class="[
+							'inline-flex items-center justify-center p-2 rounded-lg transition-all duration-200',
+							scrolled 
+								? 'text-primary-600 hover:bg-primary-50' 
+								: 'text-white hover:bg-white/10'
+						]"
+						aria-expanded="false"
+					>
+						<span class="sr-only">Open main menu</span>
+						<svg 
+							class="block h-6 w-6 transition-transform duration-200" 
+							:class="{ 'rotate-90': mobileMenuOpen }"
+							xmlns="http://www.w3.org/2000/svg" 
+							fill="none" 
+							viewBox="0 0 24 24" 
+							stroke="currentColor"
+						>
+							<path 
+								stroke-linecap="round" 
+								stroke-linejoin="round" 
+								stroke-width="2" 
+								:d="mobileMenuOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16m-7 6h7'"
+							/>
+						</svg>
+					</button>
+				</div>
+			</div>
+
+			<!-- Mobile Menu Dropdown -->
 				<transition
 					enter-active-class="transition duration-200 ease-out"
 					enter-from-class="opacity-0 -translate-y-2"
@@ -196,7 +213,7 @@ onMounted(() => {
 		</nav>
 
 		<!-- Carousel/Hero Section (Below Navigation) - Only on Home Page -->
-		<div v-if="showCarousel" class="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden bg-neutral-900">
+		<div v-if="showCarousel" class="relative w-full h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden bg-neutral-900">
 			<!-- Slides -->
 			<div class="relative w-full h-full">
 				<transition-group
