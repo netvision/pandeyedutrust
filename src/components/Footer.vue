@@ -76,6 +76,67 @@
 			<!-- Divider -->
 			<div class="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent my-8"></div>
 
+			<!-- Contact Information Section -->
+			<div class="mb-8">
+				<h3 class="text-2xl font-heading font-bold text-center mb-6 gradient-text-light">
+					Contact Us
+				</h3>
+				
+				<div class="max-w-2xl mx-auto glass-card-dark p-6 rounded-xl">
+					<div class="space-y-4">
+						<!-- Contact Person -->
+						<div class="flex items-start gap-3">
+							<div class="bg-accent-500 p-2 rounded-lg flex-shrink-0">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+								</svg>
+							</div>
+							<div>
+								<p class="text-white/70 text-sm">Contact Person</p>
+								<p class="text-white font-semibold">Pavan Kumar</p>
+							</div>
+						</div>
+
+						<!-- Phone Numbers -->
+						<div class="flex items-start gap-3">
+							<div class="bg-accent-500 p-2 rounded-lg flex-shrink-0">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+								</svg>
+							</div>
+							<div>
+								<p class="text-white/70 text-sm mb-1">Phone</p>
+								<div class="flex flex-wrap gap-2">
+									<a href="tel:9640036681" class="text-white hover:text-accent-300 transition-colors">9640036681</a>
+									<span class="text-white/40">•</span>
+									<a href="tel:8696288426" class="text-white hover:text-accent-300 transition-colors">8696288426</a>
+									<span class="text-white/40">•</span>
+									<a href="tel:9799298158" class="text-white hover:text-accent-300 transition-colors">9799298158</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Email -->
+						<div class="flex items-start gap-3">
+							<div class="bg-accent-500 p-2 rounded-lg flex-shrink-0">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+								</svg>
+							</div>
+							<div>
+								<p class="text-white/70 text-sm">Email</p>
+								<a href="mailto:pandeyedutrust1995@gmail.com" class="text-white hover:text-accent-300 transition-colors break-all">
+									pandeyedutrust1995@gmail.com
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Divider -->
+			<div class="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent my-8"></div>
+
 			<!-- Copyright Section -->
 			<div class="text-center">
 				<p class="text-white/80 text-sm">

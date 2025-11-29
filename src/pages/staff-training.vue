@@ -143,6 +143,9 @@
 					</p>
 				</div>
 			</div>
+			
+			<!-- Service Navigation -->
+			<ServiceNavigation current-page="staff-training" />
 		</div>
 	</main>
 	

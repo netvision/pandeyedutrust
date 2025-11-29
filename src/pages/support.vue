@@ -30,7 +30,7 @@
 								</svg>
 							</div>
 							<div>
-								<h3 class="font-semibold text-neutral-900 mb-2">Handle all your correspondence online</h3>
+								<h3 class="font-medium text-neutral-900 mb-1 text-base">Handle all your correspondence online</h3>
 								<p class="text-neutral-600 text-sm">Streamline your communication and manage all correspondence efficiently through our online platform.</p>
 							</div>
 						</div>
@@ -42,7 +42,7 @@
 								</svg>
 							</div>
 							<div>
-								<h3 class="font-semibold text-neutral-900 mb-2">Learn important administrative techniques</h3>
+								<h3 class="font-medium text-neutral-900 mb-1 text-base">Learn important administrative techniques</h3>
 								<p class="text-neutral-600 text-sm">Making you to learn this important administrative technique in association with us.</p>
 							</div>
 						</div>
@@ -54,7 +54,7 @@
 								</svg>
 							</div>
 							<div>
-								<h3 class="font-semibold text-neutral-900 mb-2">Academic input and support</h3>
+								<h3 class="font-medium text-neutral-900 mb-1 text-base">Academic input and support</h3>
 								<p class="text-neutral-600 text-sm">Academic input by clarifying the queries of the teachers for creating a better learning environment.</p>
 							</div>
 						</div>
@@ -66,7 +66,7 @@
 								</svg>
 							</div>
 							<div>
-								<h3 class="font-semibold text-neutral-900 mb-2">Government rules & regulations clarity</h3>
+								<h3 class="font-medium text-neutral-900 mb-1 text-base">Government rules & regulations clarity</h3>
 								<p class="text-neutral-600 text-sm">Clarifying all doubts of understanding of the Government rules & regulations and saving your valuable time and money to avoid future litigation.</p>
 							</div>
 						</div>
@@ -78,13 +78,16 @@
 								</svg>
 							</div>
 							<div>
-								<h3 class="font-semibold text-neutral-900 mb-2">Smart institution transformation</h3>
+								<h3 class="font-medium text-neutral-900 mb-1 text-base">Smart institution transformation</h3>
 								<p class="text-neutral-600 text-sm">Making your institution a smart institution in every field.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			
+			<!-- Service Navigation -->
+			<ServiceNavigation current-page="support" />
 		</div>
 	</main>
 	

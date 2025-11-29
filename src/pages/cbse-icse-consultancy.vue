@@ -135,6 +135,9 @@
 					</p>
 				</div>
 			</div>
+			
+			<!-- Service Navigation -->
+			<ServiceNavigation current-page="cbse-icse-consultancy" />
 		</div>
 	</main>
 	

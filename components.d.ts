@@ -13,5 +13,6 @@ declare module '@vue/runtime-core' {
     MenuItem: typeof import('./src/components/MenuItem.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    ServiceNavigation: typeof import('./src/components/ServiceNavigation.vue')['default']
   }
 }

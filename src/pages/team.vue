@@ -24,9 +24,9 @@
 				
 			<!-- Dr. A.K. Pandey - CEO -->
 				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.1s;">
-					<div class="md:flex">
-						<div class="md:flex-shrink-0">
-							<img class="h-64 w-full object-cover md:h-full md:w-64" src="/dr-akpandey.jpg" alt="Dr. A.K. Pandey">
+					<div class="flex">
+						<div class="flex-shrink-0">
+							<img class="h-32 w-32 object-cover object-top sm:h-48 sm:w-48 md:h-full md:w-64" src="/dr-akpandey.jpg" alt="Dr. A.K. Pandey">
 						</div>
 						<div class="p-8">
 							<div class="mb-4">
@@ -43,9 +43,9 @@
 
 				<!-- Mr. Saurov -->
 				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.2s;">
-					<div class="md:flex">
-						<div class="md:flex-shrink-0">
-							<img class="h-64 w-full object-cover md:h-full md:w-64" src="/sourav.jpg" alt="Mr. Saurov">
+					<div class="flex">
+						<div class="flex-shrink-0">
+							<img class="h-32 w-32 object-cover object-top sm:h-48 sm:w-48 md:h-full md:w-64" src="/sourav.jpg" alt="Mr. Saurov">
 						</div>
 						<div class="p-8">
 							<div class="mb-4">
@@ -62,9 +62,9 @@
 
 				<!-- Mr. Pavan Kumar - NEW -->
 				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.3s;">
-					<div class="md:flex">
-						<div class="md:flex-shrink-0">
-					<img class="h-64 w-full object-cover md:h-full md:w-64" src="/pavan.jpg" alt="Mr. Pavan Kumar">
+					<div class="flex">
+						<div class="flex-shrink-0">
+					<img class="h-32 w-32 object-cover object-top sm:h-48 sm:w-48 md:h-full md:w-64" src="/pavan.jpg" alt="Mr. Pavan Kumar">
 				</div>
 						<div class="p-8">
 							<div class="mb-4">
@@ -81,9 +81,9 @@
 
 				<!-- Ms. Shalini -->
 				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.4s;">
-					<div class="md:flex">
-						<div class="md:flex-shrink-0">
-							<img class="h-64 w-full object-cover md:h-full md:w-64" src="/ms-shalini.jpg" alt="Ms. Shalini">
+					<div class="flex">
+						<div class="flex-shrink-0">
+							<img class="h-32 w-32 object-cover object-top sm:h-48 sm:w-48 md:h-full md:w-64" src="/ms-shalini.jpg" alt="Ms. Shalini">
 						</div>
 						<div class="p-8">
 							<div class="mb-4">
@@ -100,9 +100,9 @@
 
 				<!-- Ms. Jayati Pandey -->
 				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.6s;">
-					<div class="md:flex">
-						<div class="md:flex-shrink-0">
-							<img class="h-64 w-full object-cover md:h-full md:w-64" src="/msjayati.jpg" alt="Ms. Jayati Pandey">
+					<div class="flex">
+						<div class="flex-shrink-0">
+							<img class="h-32 w-32 object-cover object-top sm:h-48 sm:w-48 md:h-full md:w-64" src="/msjayati.jpg" alt="Ms. Jayati Pandey">
 						</div>
 						<div class="p-8">
 							<div class="mb-4">
@@ -119,9 +119,9 @@
 
 				<!-- Mr. Shashank -->
 				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.5s;">
-					<div class="md:flex">
-						<div class="md:flex-shrink-0">
-					<img class="h-64 w-full object-cover md:h-full md:w-64" src="/shashank.jpg" alt="Mr. Shashank">
+					<div class="flex">
+						<div class="flex-shrink-0">
+					<img class="h-32 w-32 object-cover object-top sm:h-48 sm:w-48 md:h-full md:w-64" src="/shashank.jpg" alt="Mr. Shashank">
 						</div>
 						<div class="p-8">
 							<div class="mb-4">

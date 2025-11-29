@@ -63,6 +63,9 @@
 					</div>
 				</div>
 			</div>
+			
+			<!-- Service Navigation -->
+			<ServiceNavigation current-page="inhouse-intervention" />
 		</div>
 	</main>
 	

@@ -40,9 +40,9 @@
 						</div>
 					</div>
 					
-					<div class="md:flex">
-						<div class="md:flex-shrink-0 relative">
-							<img class="h-80 w-full object-cover md:h-full md:w-80" src="/mrs-indu-pandey.jpg" alt="Ms. Indu Pandey">
+					<div class="flex">
+						<div class="flex-shrink-0 relative">
+							<img class="h-40 w-40 object-cover object-top sm:h-64 sm:w-64 md:h-full md:w-80" src="/mrs-indu-pandey.jpg" alt="Ms. Indu Pandey">
 							<!-- Image overlay gradient -->
 							<div class="absolute inset-0 bg-gradient-to-t from-amber-900/20 to-transparent"></div>
 						</div>

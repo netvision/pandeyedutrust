@@ -115,7 +115,7 @@ onMounted(() => {
 		>
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<!-- Two-column layout: Left = Logo, Right = Heading + Menu -->
-			<div class="flex items-end gap-6 pt-1 pb-0">
+			<div class="flex items-end gap-6 pt-1 pb-2">
 				<!-- Left Column: Logo -->
 				<div class="flex-shrink-0">
 					<a href="/" class="flex items-center">
@@ -130,7 +130,7 @@ onMounted(() => {
 				<!-- Right Column: Heading + Menu (stacked vertically) -->
 			<div class="flex-1 flex flex-col justify-end">
 					<!-- Organization Name -->
-				<div class="hidden md:flex justify-center">
+				<div class="hidden md:flex px-6 py-1">
 						<h1 
 							:class="[
 								'font-heading font-bold leading-tight transition-all duration-300',
@@ -144,7 +144,7 @@ onMounted(() => {
 					</div>
 
 					<!-- Desktop Menu -->
-					<div class="hidden md:flex justify-center">
+					<div class="hidden md:flex px-2">
 						<div class="flex items-center space-x-1">
 							<MenuItem 
 								v-for="(item, index) in menuItems" 
@@ -248,7 +248,7 @@ onMounted(() => {
 										{{ slide.subtitle }}
 									</p>
 									<div class="flex gap-4">
-										<a href="/services" class="btn-outline bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary-600">
+										<a href="/other-consultancy" class="btn-outline bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary-600">
 											Our Services
 										</a>
 										<a href="/contact" class="btn-primary">

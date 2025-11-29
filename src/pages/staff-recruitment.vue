@@ -78,6 +78,9 @@
 					</div>
 				</div>
 			</div>
+			
+			<!-- Service Navigation -->
+			<ServiceNavigation current-page="staff-recruitment" />
 		</div>
 	</main>
 	

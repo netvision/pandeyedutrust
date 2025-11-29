@@ -156,6 +156,9 @@
 					</ul>
 				</div>
 			</div>
+			
+			<!-- Service Navigation -->
+			<ServiceNavigation current-page="other-consultancy" />
 		</div>
 	</main>
 	
