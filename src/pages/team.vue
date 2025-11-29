@@ -26,7 +26,7 @@
 				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.1s;">
 					<div class="flex">
 						<div class="flex-shrink-0">
-							<img class="h-32 w-32 object-cover object-top sm:h-48 sm:w-48 md:h-full md:w-64" src="/dr-akpandey.jpg" alt="Dr. A.K. Pandey">
+							<img class="h-32 w-32 object-cover object-top sm:h-48 sm:w-48 md:h-full md:w-64" src="/akpandey.jpg" alt="Dr. A.K. Pandey">
 						</div>
 						<div class="p-8">
 							<div class="mb-4">
@@ -45,7 +45,7 @@
 				<div class="glass-card overflow-hidden hover-lift animate-fade-in" style="animation-delay: 0.2s;">
 					<div class="flex">
 						<div class="flex-shrink-0">
-							<img class="h-32 w-32 object-cover object-top sm:h-48 sm:w-48 md:h-full md:w-64" src="/sourav.jpg" alt="Mr. Saurov">
+							<img class="h-32 w-32 object-cover object-top sm:h-48 sm:w-48 md:h-full md:w-64" src="/saurov.jpg" alt="Mr. Saurov">
 						</div>
 						<div class="p-8">
 							<div class="mb-4">

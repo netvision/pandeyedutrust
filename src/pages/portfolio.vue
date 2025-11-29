@@ -179,7 +179,7 @@
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-accent-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
 							</svg>
-							<span class="text-neutral-700">NRE School, Ransthalam, Andhra Pradesh</span>
+							<span class="text-neutral-700">NER School of Excellence, Ransthalam, Andhra Pradesh</span>
 						</div>
 						<div class="flex items-start gap-3 p-4 bg-white rounded-lg border border-neutral-200 hover:shadow-md transition-shadow">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-accent-600 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
