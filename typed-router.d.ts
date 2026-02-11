@@ -31,9 +31,13 @@ declare module '@vue-router/routes' {
   export interface RouteNamedMap {
     'home': RouteRecordInfo<'home', '/', Record<never, never>, Record<never, never>>,
     'not-found': RouteRecordInfo<'not-found', '/:all(.*)', { all: ParamValue<true> }, { all: ParamValue<false> }>,
+    '/._blog': RouteRecordInfo<'/._blog', '/_blog', Record<never, never>, Record<never, never>>,
+    '/._cbse-on-screen-marking-2026': RouteRecordInfo<'/._cbse-on-screen-marking-2026', '/_cbse-on-screen-marking-2026', Record<never, never>, Record<never, never>>,
     'admin-are-born': RouteRecordInfo<'admin-are-born', '/admin-are-born', Record<never, never>, Record<never, never>>,
+    '/blog': RouteRecordInfo<'/blog', '/blog', Record<never, never>, Record<never, never>>,
     'bus-facility': RouteRecordInfo<'bus-facility', '/bus-facility', Record<never, never>, Record<never, never>>,
     'cbse-icse-consultancy': RouteRecordInfo<'cbse-icse-consultancy', '/cbse-icse-consultancy', Record<never, never>, Record<never, never>>,
+    '/cbse-on-screen-marking-2026': RouteRecordInfo<'/cbse-on-screen-marking-2026', '/cbse-on-screen-marking-2026', Record<never, never>, Record<never, never>>,
     'contact': RouteRecordInfo<'contact', '/contact', Record<never, never>, Record<never, never>>,
     'demotion-principal': RouteRecordInfo<'demotion-principal', '/demotion-principal', Record<never, never>, Record<never, never>>,
     'demotion-vice-principal': RouteRecordInfo<'demotion-vice-principal', '/demotion-vice-principal', Record<never, never>, Record<never, never>>,

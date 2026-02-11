@@ -39,6 +39,7 @@ const menuItems = [
         },
 		{ label: 'Published Papers', url: '/published-papers' },
 		{ label: 'Social Responsibility', url: '/social-responsibility' },
+		{ label: 'Blog', url: '/blog' },
 		{ label: 'Contact', url: '/contact' },
       ]
 
