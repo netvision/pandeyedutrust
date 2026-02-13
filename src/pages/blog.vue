@@ -6,22 +6,22 @@
 	// Blog articles data - will be moved to database later
 	const articles = [
 		{
-			id: 1,
-			slug: 'cbse-on-screen-marking-2026',
-			title: 'CBSE On-Screen Marking Scheme 2026: A Complete Guide for Class 12 Board Exams',
-			summary: 'CBSE has introduced a very important update for the Class 12 Board Exams 2026 — the On-Screen Marking (OSM) system. This is not a small procedural change; it is a major step toward digital evaluation in India\'s school education system. Learn how this new system works, its benefits, challenges, and what schools need to prepare.',
-			author: 'Dr A. K. Pandey',
-			date: '10.02.2026',
-			category: 'CBSE Updates'
-		},
-		{
 			id: 2,
 			slug: 'why-static-ip-required-for-cbse-osm',
 			title: 'Why Static IP is Required for CBSE On-Screen Marking (OSM) 2026',
 			summary: 'Many evaluation centres face login failures and disconnections during CBSE OSM mock runs. The real issue is not bandwidth but the absence of a Public Static IP. Understand why CBSE demands a static IP, how to procure it, and how it stabilises digital evaluation.',
 			author: 'Dr A. K. Pandey',
-			date: '10.02.2026',
+			date: '12.02.2026',
 			category: 'Digital Infrastructure'
+		},
+		{
+			id: 1,
+			slug: 'cbse-on-screen-marking-2026',
+			title: 'CBSE On-Screen Marking Scheme 2026: A Complete Guide for Class 12 Board Exams',
+			summary: 'CBSE has introduced a very important update for the Class 12 Board Exams 2026 — the On-Screen Marking (OSM) system. This is not a small procedural change; it is a major step toward digital evaluation in India's school education system. Learn how this new system works, its benefits, challenges, and what schools need to prepare.',
+			author: 'Dr A. K. Pandey',
+			date: '10.02.2026',
+			category: 'CBSE Updates'
 		}
 	];
 </script>
