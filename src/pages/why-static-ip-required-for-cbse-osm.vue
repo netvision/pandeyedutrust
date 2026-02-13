@@ -6,9 +6,10 @@
 
 <template>
 	<AppHeader />
-
+	
 	<main class="min-h-screen bg-neutral-50">
 		<div class="section-container">
+			<!-- Back to Blog Link -->
 			<div class="mb-8 animate-fade-in">
 				<router-link to="/blog" class="inline-flex items-center gap-2 text-primary-600 hover:text-primary-700 transition-colors">
 					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -18,8 +19,10 @@
 				</router-link>
 			</div>
 
+			<!-- Blog Article -->
 			<div class="max-w-4xl mx-auto">
-				<article class="glass-card p-8 md:p-12 animate-fade-in">
+				<article class="glass-card p-8 md:p-12 animate-fade-in hover-lift">
+					<!-- Article Header -->
 					<div class="mb-8 pb-6 border-b border-neutral-200">
 						<h1 class="text-3xl md:text-4xl font-heading font-bold text-neutral-900 mb-4">
 							Why Static IP is Required for CBSE On-Screen Marking (OSM) 2026
@@ -39,6 +42,7 @@
 							</span>
 						</div>
 
+					<!-- Article Content -->
 					<div class="prose prose-neutral max-w-none text-neutral-700">
 						<p class="text-lg leading-relaxed mb-6">
 							CBSE has begun rolling out the On-Screen Marking (OSM) system for board evaluations. Instead of carrying bundles of physical answer sheets, evaluators now log into CBSE's secure servers, review scanned copies, and submit marks digitally.
@@ -177,7 +181,7 @@
 							</div>
 						</div>
 
-						<div class="alert alert-info bg-primary-50 border border-primary-100 text-primary-900 rounded-2xl p-5 mb-8">
+						<div class="bg-primary-50 border border-primary-100 text-primary-900 rounded-2xl p-5 mb-8">
 							<p><strong>Important:</strong> Always insist on a <em>Public</em> Static IP. Private static IPs will not work for CBSE OSM because the CBSE server must see the centre on the public internet.</p>
 						</div>
 
@@ -233,7 +237,7 @@
 			</div>
 		</div>
 	</main>
-
+	
 	<Footer />
 </template>
 
