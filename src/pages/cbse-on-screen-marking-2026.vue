@@ -295,8 +295,13 @@
 							Schools should begin infrastructure readiness now, and students should focus on writing clear, structured answers.
 						</p>
 
-						<p class="leading-relaxed">
+						<p class="leading-relaxed mb-6">
 							Keep checking the CBSE website for official updates — and if you still have doubts, feel free to ask!
+						</p>
+
+						<p class="leading-relaxed">
+							<strong>Dr A. K. Pandey</strong><br />
+							10.02.2026
 						</p>
 					</div>
 
