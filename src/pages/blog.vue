@@ -13,6 +13,15 @@
 			author: 'Dr A. K. Pandey',
 			date: '10.02.2026',
 			category: 'CBSE Updates'
+		},
+		{
+			id: 2,
+			slug: 'why-static-ip-required-for-cbse-osm',
+			title: 'Why Static IP is Required for CBSE On-Screen Marking (OSM) 2026',
+			summary: 'Many evaluation centres face login failures and disconnections during CBSE OSM mock runs. The real issue is not bandwidth but the absence of a Public Static IP. Understand why CBSE demands a static IP, how to procure it, and how it stabilises digital evaluation.',
+			author: 'Dr A. K. Pandey',
+			date: '10.02.2026',
+			category: 'Digital Infrastructure'
 		}
 	];
 </script>
