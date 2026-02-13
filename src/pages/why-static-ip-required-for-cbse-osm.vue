@@ -41,6 +41,7 @@
 								10.02.2026
 							</span>
 						</div>
+					</div>
 
 					<!-- Article Content -->
 					<div class="prose prose-neutral max-w-none text-neutral-700">
