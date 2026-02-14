@@ -9,6 +9,9 @@ dist-ssr
 .vite-ssg-temp
 .idea
 
+# SSL certificates
+certs/
+
 # macOS
 ._*
 .AppleDouble

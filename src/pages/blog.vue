@@ -6,6 +6,15 @@
 	// Blog articles data - will be moved to database later
 	const articles = [
 		{
+			id: 3,
+			slug: 'cbse-webinar-2026-exam-guidelines',
+			title: 'CBSE Exam Guidelines 2026 (Official Webinar): OSM Process, Rules & School Actions',
+			summary: 'Official summary of the CBSE Webinar 2026 covering exam conduct rules, On-Screen Marking (OSM) workflow, urgent deadlines, and immediate actions for schools and teachers.',
+			author: 'Dr A. K. Pandey',
+			date: '14.02.2026',
+			category: 'CBSE Updates'
+		},
+		{
 			id: 2,
 			slug: 'why-static-ip-required-for-cbse-osm',
 			title: 'Why Static IP is Required for CBSE On-Screen Marking (OSM) 2026',

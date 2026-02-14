@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import { resolve } from 'path';
+import fs from 'fs';
 import Components from 'unplugin-vue-components/vite';
 import AutoImport from 'unplugin-auto-import/vite';
 import Icons from 'unplugin-icons/vite';
@@ -10,6 +11,21 @@ import { VitePWA } from 'vite-plugin-pwa';
 import generateSitemap from 'vite-ssg-sitemap';
 import VueRouter from 'unplugin-vue-router/vite';
 import { VueRouterExports } from 'unplugin-vue-router';
+
+const keyPath = resolve(__dirname, './certs/key.pem');
+const certPath = resolve(__dirname, './certs/cert.pem');
+
+const getHttpsConfig = () => {
+	try {
+		return {
+			key: fs.readFileSync(keyPath),
+			cert: fs.readFileSync(certPath),
+		};
+	}
+	catch {
+		return false;
+	}
+};
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [
@@ -92,6 +108,8 @@ export default defineConfig({
 		},
 	},
 	server: {
+		host: '0.0.0.0',
+		https: getHttpsConfig(),
 		fs: {
 			strict: true,
 		},
