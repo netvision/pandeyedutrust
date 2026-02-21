@@ -6,6 +6,15 @@
 	// Blog articles data - will be moved to database later
 	const articles = [
 		{
+			id: 4,
+			slug: 'importance-of-holistic-education',
+			title: 'Importance of Holistic Education in a Rapidly Changing World',
+			summary: 'Holistic education strengthens thinking, feeling, and relating—balancing emotional intelligence, physical wellness, creativity, and real-world relevance so students stay motivated and resilient for decades to come.',
+			author: 'Saurov Pandey',
+			date: '21.02.2026',
+			category: 'Education Philosophy'
+		},
+		{
 			id: 3,
 			slug: 'cbse-webinar-2026-exam-guidelines',
 			title: 'CBSE Exam Guidelines 2026 (Official Webinar): OSM Process, Rules & School Actions',
