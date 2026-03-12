@@ -53,6 +53,7 @@ declare module '@vue-router/routes' {
     'staff-training': RouteRecordInfo<'staff-training', '/staff-training', Record<never, never>, Record<never, never>>,
     'support': RouteRecordInfo<'support', '/support', Record<never, never>, Record<never, never>>,
     'team': RouteRecordInfo<'team', '/team', Record<never, never>, Record<never, never>>,
+    '/unleashing-your-inner-winner': RouteRecordInfo<'/unleashing-your-inner-winner', '/unleashing-your-inner-winner', Record<never, never>, Record<never, never>>,
     '/why-static-ip-required-for-cbse-osm': RouteRecordInfo<'/why-static-ip-required-for-cbse-osm', '/why-static-ip-required-for-cbse-osm', Record<never, never>, Record<never, never>>,
   }
 }

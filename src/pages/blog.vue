@@ -6,6 +6,15 @@
 	// Blog articles data - will be moved to database later
 	const articles = [
 		{
+			id: 5,
+			slug: 'unleashing-your-inner-winner',
+			title: 'Unleashing Your Inner Winner: Lessons from Power to Write Your Own Destiny',
+			summary: 'A review of Chapter 1 of Ashok Indu\'s book — exploring how self-belief, persistence, and internal momentum separate winners from the rest, with lessons from E. Sreedharan and the author\'s own journey.',
+			author: 'Dr A. K. Pandey',
+			date: '12.03.2026',
+			category: 'Personal Development'
+		},
+		{
 			id: 4,
 			slug: 'importance-of-holistic-education',
 			title: 'Importance of Holistic Education in a Rapidly Changing World',
