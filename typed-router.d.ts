@@ -41,6 +41,7 @@ declare module '@vue-router/routes' {
     'demotion-principal': RouteRecordInfo<'demotion-principal', '/demotion-principal', Record<never, never>, Record<never, never>>,
     'demotion-vice-principal': RouteRecordInfo<'demotion-vice-principal', '/demotion-vice-principal', Record<never, never>, Record<never, never>>,
     '/importance-of-holistic-education': RouteRecordInfo<'/importance-of-holistic-education', '/importance-of-holistic-education', Record<never, never>, Record<never, never>>,
+    '/india-school-education-system': RouteRecordInfo<'/india-school-education-system', '/india-school-education-system', Record<never, never>, Record<never, never>>,
     'inhouse-intervention': RouteRecordInfo<'inhouse-intervention', '/inhouse-intervention', Record<never, never>, Record<never, never>>,
     'maheshwari-computerisation': RouteRecordInfo<'maheshwari-computerisation', '/maheshwari-computerisation', Record<never, never>, Record<never, never>>,
     'other-consultancy': RouteRecordInfo<'other-consultancy', '/other-consultancy', Record<never, never>, Record<never, never>>,

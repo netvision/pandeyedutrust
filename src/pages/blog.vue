@@ -6,6 +6,15 @@
 	// Blog articles data - will be moved to database later
 	const articles = [
 		{
+			id: 6,
+			slug: 'india-school-education-system',
+			title: 'School Education System in India: Trends, Challenges, and Policy Roadmap for Quality Education',
+			summary: 'Explore trends, challenges, NEP 2020 reforms, digital learning, teacher education, and the future roadmap for quality school education in India.',
+			author: 'Dr. A. K. Pandey',
+			date: '22.05.2026',
+			category: 'Education Policy'
+		},
+		{
 			id: 5,
 			slug: 'unleashing-your-inner-winner',
 			title: 'Unleashing Your Inner Winner: Lessons from Power to Write Your Own Destiny',
