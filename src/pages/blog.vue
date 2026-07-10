@@ -6,6 +6,15 @@
 	// Blog articles data - will be moved to database later
 	const articles = [
 		{
+			id: 7,
+			slug: 'cbse-sqaaf-school-quality-assessment-and-assurance-framework',
+			title: 'CBSE SQAAF Framework Explained: Building Quality Schools Through Self-Reflection and Innovation',
+			summary: 'Explore the CBSE School Quality Assessment and Assurance Framework, including self-reflection, accountability, collaboration, innovation, and the seven domains of school quality.',
+			author: 'Dr. A. K. Pandey',
+			date: '10.07.2026',
+			category: 'School Quality'
+		},
+		{
 			id: 6,
 			slug: 'india-school-education-system',
 			title: 'School Education System in India: Trends, Challenges, and Policy Roadmap for Quality Education',

@@ -36,6 +36,7 @@ declare module '@vue-router/routes' {
     'bus-facility': RouteRecordInfo<'bus-facility', '/bus-facility', Record<never, never>, Record<never, never>>,
     'cbse-icse-consultancy': RouteRecordInfo<'cbse-icse-consultancy', '/cbse-icse-consultancy', Record<never, never>, Record<never, never>>,
     '/cbse-on-screen-marking-2026': RouteRecordInfo<'/cbse-on-screen-marking-2026', '/cbse-on-screen-marking-2026', Record<never, never>, Record<never, never>>,
+    '/cbse-sqaaf-school-quality-assessment-and-assurance-framework': RouteRecordInfo<'/cbse-sqaaf-school-quality-assessment-and-assurance-framework', '/cbse-sqaaf-school-quality-assessment-and-assurance-framework', Record<never, never>, Record<never, never>>,
     '/cbse-webinar-2026-exam-guidelines': RouteRecordInfo<'/cbse-webinar-2026-exam-guidelines', '/cbse-webinar-2026-exam-guidelines', Record<never, never>, Record<never, never>>,
     'contact': RouteRecordInfo<'contact', '/contact', Record<never, never>, Record<never, never>>,
     'demotion-principal': RouteRecordInfo<'demotion-principal', '/demotion-principal', Record<never, never>, Record<never, never>>,
