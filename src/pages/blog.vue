@@ -6,6 +6,15 @@
 	// Blog articles data - will be moved to database later
 	const articles = [
 		{
+			id: 8,
+			slug: 'sqaaf-workshop-architecture-of-excellence',
+			title: 'SQAAF Workshop: The Architecture of Excellence for School Quality Improvement',
+			summary: 'A practical recap of the SQAAF workshop covering the 4R quality cycle, maturity rubrics, evidence bank, IQAC responsibilities, SIP matrix, roadblocks, and a 12-month implementation roadmap.',
+			author: 'Dr. A. K. Pandey and Yashwant Parashar',
+			date: '24.07.2026',
+			category: 'School Quality'
+		},
+		{
 			id: 7,
 			slug: 'cbse-sqaaf-school-quality-assessment-and-assurance-framework',
 			title: 'CBSE SQAAF Framework Explained: Building Quality Schools Through Self-Reflection and Innovation',

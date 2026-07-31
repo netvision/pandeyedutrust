@@ -51,6 +51,7 @@ declare module '@vue-router/routes' {
     'published-papers': RouteRecordInfo<'published-papers', '/published-papers', Record<never, never>, Record<never, never>>,
     'services': RouteRecordInfo<'services', '/services', Record<never, never>, Record<never, never>>,
     'social-responsibility': RouteRecordInfo<'social-responsibility', '/social-responsibility', Record<never, never>, Record<never, never>>,
+    '/sqaaf-workshop-architecture-of-excellence': RouteRecordInfo<'/sqaaf-workshop-architecture-of-excellence', '/sqaaf-workshop-architecture-of-excellence', Record<never, never>, Record<never, never>>,
     'staff-recruitment': RouteRecordInfo<'staff-recruitment', '/staff-recruitment', Record<never, never>, Record<never, never>>,
     'staff-training': RouteRecordInfo<'staff-training', '/staff-training', Record<never, never>, Record<never, never>>,
     'support': RouteRecordInfo<'support', '/support', Record<never, never>, Record<never, never>>,
